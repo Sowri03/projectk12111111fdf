@@ -1,0 +1,53 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  iD: "3"
+  name: "WiCOME_Bluetooth_stack"
+  description: "Contains the core Bluetooth stack, protocol and profile implementation.  Bluetooth core stack is a third party  code received from OpenSynergy "
+  version: "WB_mgu22_E_WiCome_23283A  Blue SDK 6.3 LE SDK 3.3 AVSDK 3.3 MTOBEX 4.3"
+  status: "Active"
+  la: "WB_mgu22_E_WiCome_23283A"
+  responsible: {"name":"Dey, Abhijit ","email":"Abhijit.Dey@harman.com"}
+  architects: {"name":"Kotanchery, Jibin","email":"Jibin.Kotanchery@harman.com"}
+  last_review_date: 
+  asil: "ASIL QM"
+  permissions: "Restricted"
+  price: {"currency":"USD"}
+  usage: ["MGU22/21/18 NTG7/6 PSA Toyota MMT ManScania FPDM MSIL TATA GM Subaru"]
+  license: 
+  artifact: "Executable"
+  layer: "Middleware"
+  Domain: "Connectivity"
+  environment: "Embedded"
+  requirements: ["https://alm.harman.com/rm3/web#action=com.ibm.rdm.web.pages.showArtifactPage&artifactURI=https%3A%2F%2Falm.harman.com%2Frm3%2Fresources%2FMD_GVgDoaPZEem2zZVVqTlIhQ&componentURI=https%3A%2F%2Falm.harman.com%2Frm3%2Frm-projects%2F_tbH4cF0FEem_VbEj8XqWiA%2Fcomponents%2F_wArAUGAkEemrk_fCV6GB8Q&oslc.configuration=https%3A%2F%2Falm.harman.com%2Fgc%2Fconfiguration%2F1920  "]
+  designdocuments: ["https://gerrit1.harman.com/plugins/gitiles/Connectivity/Development/WiCome/Common/+/refs/heads/master/doc/architecture/coc_connectivity_wicome_hdd.pdf "]
+  subcomponents: ["Wicome_HostAgent",", Wicome_MonitorService, SASService, AliveService, BSSService, PhoneService, DmlService, PIMService, DSIService, SIMService, MediaService, BTMediaFSService,  AGService"]
+  releasenotes: []
+  resourceutilization: ["CPU Utilization Connection - 2% Streaming / Contact Download / Call Scenario - 19%"]
+  interface: ["https://gerrit1.harman.com/plugins/gitiles/Connectivity/Development/WiCome/Services/simservice/+/refs/heads/master/doc/GCFInterface_PSS_SimService.doc  https://gerrit1.harman.com/plugins/gitiles/Connectivity/Development/WiCome/Services/bssservice/+/refs/heads/master/doc/GIS_SCP_BSS.doc  https://gerrit1.harman.com/plugins/gitiles/Connectivity/Development/WiCome/Services/mediaservice/+/refs/heads/master/doc/MediaFSInterface_Generation4Plus.pdf  https://gerrit1.harman.com/plugins/gitiles/Connectivity/Development/WiCome/Services/mediaservice/+/refs/heads/master/doc/MediaFSInterface_Generation4.pdf  https://gerrit1.harman.com/plugins/gitiles/Connectivity/Development/WiCome/Services/phoneservice/+/refs/heads/master/doc/Phone%20GCF%20Interface%20Specification.doc https://gerrit1.harman.com/plugins/gitiles/Connectivity/Development/WiCome/Services/pimservice/+/refs/heads/master/doc/PIM%20Service%20Interface%20Specification.doc https://gerrit1.harman.com/plugins/gitiles/Connectivity/Development/WiCome/Services/audiogatewayservice/+/refs/heads/master/doc/AudioGateway%20GCF%20Interface%20Specification.doc https://gerrit1.harman.com/plugins/gitiles/Connectivity/Development/WiCome/Services/dmlservice/+/refs/heads/master/doc/GCFInterface_DMLSS_DmlMgr.doc\""]
+  interfaceconsumed: []
+  runtimedependencies: ["Linux kernel, SQLite, zlib, Flexpp-Bisoncpp, libsqlite3, libexpat, ICU-lib, CxImage,   Curl and Libcurl"]
+  buildtimedependencies: ["SDK2 provided by platform or customer, SOC packages, vendor packages (firmware, NVRAM/NVM, third party scripts, driver"]
+  repositories: ["ssh://gerrit1.harman.com:29418/Connectivity/Development/Integration/Gclient_Repos/iuk_mgu_wicome"]
+  foss: 
+  supportedos: ["Linux","QNX","Android"]
+  buildinstructions: [" https://confluence.harman.com/confluence/display/COCCONN/CONNECTIVITY+BUILD+PROCESS#CONNECTIVITYBUILDPROCESS-HOWTOBUILD"]
+  origin: 
+  activity: "Received 12 gerrits in the month of June"
+  vulnerabilities: ["https://confluence.harman.com/confluence/display/COCCONN/BT+Vulnerabilities"]
+  codelanguage: "C++,C"
+  i18n: "NA"
+  testcode: ["Test cases were developed using Test Complete. But the Test complete license has expired 2 years back. Dev test cases wherever available is captured in the next column"]
+  testdocumentations: 
+  forking: "Not Allowed"
+  annotations:
+    github.com/project-slug: sowri03/projectk12111111fdf
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: software
+  lifecycle: onboard
+  owner: "group:default/media"
+  dependsOn:
+    - component:Null
+    - component:Null
+  subcomponentOf: component:Null

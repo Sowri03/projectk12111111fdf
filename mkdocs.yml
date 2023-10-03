@@ -1,0 +1,45 @@
+site_iD: "3"
+site_name: "WiCOME_Bluetooth_stack"
+site_description: "Contains the core Bluetooth stack, protocol and profile implementation.  Bluetooth core stack is a third party  code received from OpenSynergy "
+site_version: "WB_mgu22_E_WiCome_23283A  Blue SDK 6.3 LE SDK 3.3 AVSDK 3.3 MTOBEX 4.3"
+site_status: "Active"
+site_la: "WB_mgu22_E_WiCome_23283A"
+site_responsible: {"name":"Dey, Abhijit ","email":"Abhijit.Dey@harman.com"}
+site_architects: {"name":"Kotanchery, Jibin","email":"Jibin.Kotanchery@harman.com"}
+site_last_review_date: 
+site_asil: "ASIL QM"
+site_permissions: "Restricted"
+site_price: {"currency":"USD"}
+site_license: 
+site_artifact: "Executable"
+site_layer: "Middleware"
+site_Domain: "Connectivity"
+site_environment: "Embedded"
+site_requirements: ["https://alm.harman.com/rm3/web#action=com.ibm.rdm.web.pages.showArtifactPage&artifactURI=https%3A%2F%2Falm.harman.com%2Frm3%2Fresources%2FMD_GVgDoaPZEem2zZVVqTlIhQ&componentURI=https%3A%2F%2Falm.harman.com%2Frm3%2Frm-projects%2F_tbH4cF0FEem_VbEj8XqWiA%2Fcomponents%2F_wArAUGAkEemrk_fCV6GB8Q&oslc.configuration=https%3A%2F%2Falm.harman.com%2Fgc%2Fconfiguration%2F1920  "]
+site_designdocuments: ["https://gerrit1.harman.com/plugins/gitiles/Connectivity/Development/WiCome/Common/+/refs/heads/master/doc/architecture/coc_connectivity_wicome_hdd.pdf "]
+site_subcomponents: ["Wicome_HostAgent",", Wicome_MonitorService, SASService, AliveService, BSSService, PhoneService, DmlService, PIMService, DSIService, SIMService, MediaService, BTMediaFSService,  AGService"]
+site_releasenotes: []
+site_resourceutilization: ["CPU Utilization Connection - 2% Streaming / Contact Download / Call Scenario - 19%"]
+site_interface: ["https://gerrit1.harman.com/plugins/gitiles/Connectivity/Development/WiCome/Services/simservice/+/refs/heads/master/doc/GCFInterface_PSS_SimService.doc  https://gerrit1.harman.com/plugins/gitiles/Connectivity/Development/WiCome/Services/bssservice/+/refs/heads/master/doc/GIS_SCP_BSS.doc  https://gerrit1.harman.com/plugins/gitiles/Connectivity/Development/WiCome/Services/mediaservice/+/refs/heads/master/doc/MediaFSInterface_Generation4Plus.pdf  https://gerrit1.harman.com/plugins/gitiles/Connectivity/Development/WiCome/Services/mediaservice/+/refs/heads/master/doc/MediaFSInterface_Generation4.pdf  https://gerrit1.harman.com/plugins/gitiles/Connectivity/Development/WiCome/Services/phoneservice/+/refs/heads/master/doc/Phone%20GCF%20Interface%20Specification.doc https://gerrit1.harman.com/plugins/gitiles/Connectivity/Development/WiCome/Services/pimservice/+/refs/heads/master/doc/PIM%20Service%20Interface%20Specification.doc https://gerrit1.harman.com/plugins/gitiles/Connectivity/Development/WiCome/Services/audiogatewayservice/+/refs/heads/master/doc/AudioGateway%20GCF%20Interface%20Specification.doc https://gerrit1.harman.com/plugins/gitiles/Connectivity/Development/WiCome/Services/dmlservice/+/refs/heads/master/doc/GCFInterface_DMLSS_DmlMgr.doc\""]
+site_interfaceconsumed: []
+site_runtimedependencies: ["Linux kernel, SQLite, zlib, Flexpp-Bisoncpp, libsqlite3, libexpat, ICU-lib, CxImage,   Curl and Libcurl"]
+site_buildtimedependencies: ["SDK2 provided by platform or customer, SOC packages, vendor packages (firmware, NVRAM/NVM, third party scripts, driver"]
+site_repositories: ["ssh://gerrit1.harman.com:29418/Connectivity/Development/Integration/Gclient_Repos/iuk_mgu_wicome"]
+site_foss: 
+site_supportedos: ["Linux","QNX","Android"]
+site_buildinstructions: [" https://confluence.harman.com/confluence/display/COCCONN/CONNECTIVITY+BUILD+PROCESS#CONNECTIVITYBUILDPROCESS-HOWTOBUILD"]
+site_origin: 
+site_activity: "Received 12 gerrits in the month of June"
+site_vulnerabilities: ["https://confluence.harman.com/confluence/display/COCCONN/BT+Vulnerabilities"]
+site_codelanguage: "C++,C"
+site_i18n: "NA"
+site_testcode: ["Test cases were developed using Test Complete. But the Test complete license has expired 2 years back. Dev test cases wherever available is captured in the next column"]
+site_testdocumentations: 
+site_forking: "Not Allowed"
+
+
+nav:
+  - Asset Metadata: index.md
+
+plugins:
+  - techdocs-core
